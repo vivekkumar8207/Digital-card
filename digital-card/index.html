@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ultra Premium Digital Business Card</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="card-container">
+    <div class="glass-card">
+      <div class="profile-section">
+        <img src="profile.jpg" alt="Profile Pic" class="profile-img" id="profileImg"/>
+        <h2 id="name">Your Name</h2>
+        <span id="title">Business Consultant</span>
+      </div>
+      <div class="contact-info">
+        <p><i class="fa-solid fa-phone"></i> <a href="tel:‪+919988776655‬" id="phone">‪+91 9988776655‬</a></p>
+        <p><i class="fa-solid fa-envelope"></i> <a href="mailto:your@email.com" id="email">your@email.com</a></p>
+        <p><i class="fa-solid fa-globe"></i> <a href="https://yourwebsite.com" id="website">yourwebsite.com</a></p>
+        <p><i class="fa-solid fa-location-dot"></i> <span id="address">Your City, State</span></p>
+      </div>
+      <div class="social-links">
+        <a href="https://linkedin.com/" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://instagram.com/" target="_blank" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://facebook.com/" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+      <div class="action-buttons">
+        <button id="whatsappBtn"><i class="fa-brands fa-whatsapp"></i> WhatsApp Par Chat Karein</button>
+        <button id="paymentBtn"><i class="fa-solid fa-indian-rupee-sign"></i> UPI Se Payment Karein</button>
+        <button id="appointmentBtn"><i class="fa-solid fa-calendar-check"></i> Appointment Book Karein</button>
+        <button id="downloadBtn"><i class="fa-solid fa-download"></i> PNG Download Karein</button>
+      </div>
+      <div class="qr-section">
+        <img src="qr-payment.png" alt="Scan to Pay" class="qr-img"/>
+        <span>UPI QR – Fast Payment</span>
+      </div>
+      <div class="analytics">
+        <span id="viewCount"><i class="fa-solid fa-eye"></i> Views: 0</span> |
+        <span id="clickCount"><i class="fa-solid fa-hand-pointer"></i> Contact Clicks: 0</span>
+      </div>
+      <div class="upload-section">
+        <label for="profileUpload"><i class="fa-solid fa-image"></i> Profile Image Upload Karein:</label>
+        <input type="file" id="profileUpload" accept="image/*"/>
+      </div>
+      <div class="custom-features">
+        <a href="portfolio.pdf" download><i class="fa-solid fa-file-pdf"></i> Portfolio Download</a>
+        <a href="https://calendly.com/" target="_blank"><i class="fa-regular fa-calendar"></i> Book Demo Meeting</a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
